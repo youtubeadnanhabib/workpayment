@@ -120,6 +120,7 @@
 			<center>
 				<div style="display: block; margin: auto;">
 				<div class="col-1">
+					<label for="ammnt"> Amount</label>
 					<input style="padding: 5px; margin: 10px;" min='1' id="ammnt" type="number" value="10" class="form-control">
 				</div>
 				<div id="paypalBtn"></div>
@@ -139,9 +140,12 @@
 
       <form action="https://www.isaacchung.net/charge" method="post" id="payment-form"  style="width:100%;">
           <div class="form-row">
-              <p><input class="form-control" type="text" name="amount" value="10" /></p>
-              <p><input class="form-control" type="text" name="customer_name" value="" placeholder="Customer Name" /></p>
-              <p><input class="form-control" type="text" name="customer_email" value="" placeholder="Customer Email" /></p>
+              <p> <label for="amn" class="lbl"> Amount </label>
+              	<input class="form-control" type="text" name="amount" value="10" id="amn" /></p>
+              <p> <label for="cnm" class="lbl"> Customer Name </label>
+              	<input class="form-control" type="text" name="customer_name" value="" placeholder="Customer Name" id="cnm" /></p>
+              <p><label for="mailadd" class="lbl"> Customer Email </label>
+              	<input class="form-control" type="text" name="customer_email" value="" placeholder="Customer Email" /></p>
               <p><input class="form-control" type="hidden" name="redirect_url" value="https://www.isaacchung.net/animations"/></p>
               
               <div id="card-element">
