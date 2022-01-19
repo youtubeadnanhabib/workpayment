@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Animations - Isaac Chung</title>
+	<link rel="icon" type="image/x-icon" href="images/Isaac_favicon_3rd.png">
+	<meta charset="utf-8" />
+    <!--link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"/-->
+    <!--link rel="stylesheet" type="text/css" href="style.css"-->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&amp;ampdisplay=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+  <style type="text/css">
+      .StripeElement {
+          box-sizing: border-box;
+          height: 40px;
+          padding: 10px 12px;
+          border: 1px solid transparent;
+          border-radius: 4px;
+          background-color: white;
+          box-shadow: 0 1px 3px 0 #e6ebf1;
+          -webkit-transition: box-shadow 150ms ease;
+          transition: box-shadow 150ms ease;
+      }
+
+      .StripeElement--focus {
+          box-shadow: 0 1px 3px 0 #cfd7df;
+      }
+
+      .StripeElement--invalid {
+          border-color: #fa755a;
+      }
+
+      .StripeElement--webkit-autofill {
+          background-color: #fefde5 !important;
+      }
+  </style>
+
+</head>
+
+<body bgcolor="#231E23;" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<a href="es">
+<p style="margin: auto;
+  text-align: center;
+  margin-bottom: 10px;">
+<img src="images/Isaac_Logo_3rd.png" alt="this_is_the_logo">
+</p>
+</a>
+	<div class="wrapper">
+		<header>
+			<p class="mytagline" id="tag" style="color:white">Caricaturist and Animator</p>
+		</header>
+
+		<header>
+		<div id="langulangu">
+		<img src="images/lang_icon.png">
+		<a id="english2" href="animations">English</a>
+		<a2 id="diag2" style="color:white">/</a2>
+		<a id="spanish2" href="animaciones">Español</a>
+		</div>
+		</header>
+		
+		<nav>
+			<a id="aboutBtn" href="aboutme" style="color:white">About Me</a>
+            <a id="caricBtn" href="caricatures" style="color:white">Caricatures</a>
+            <a id="animaBtn" href="animations" style="color:white; background-color: #2e8280">Animations</a>
+			<a id="contaBtn" href="contact" style="color:white">Contact</a>	
+		</nav>
+
+		<section>
+
+		<div id="anim">
+
+		<h1 style="color:#89f0ed">Animated Explainer Videos</h1>
+
+		<p>Animated Explainer Videos is my specialty. An engaging asset that captures the attention of your target audience to then transmit the concept of your business, product, or company in a clear and simple way. That's probably what you are looking for to generate leads. With Explainer Videos you can achieve this easily, and who better to help you with that than Isaac 'The Explainer Video Maker' Chung.</p>
+
+		<p>I can help you with the following:</p>
+
+		<ul id="bullets2">
+        
+	    <li class="list"><b style="color:#89f0ed">Script:</b> Just tell me what you want and what are the most important ideas. I would translate that into graphics that flow smoothly in a nice and appealing way.</li>
+	    <p></p>
+		<li class="list"><b style="color:#89f0ed">Voice-Over and Background Music:</b> If you want to include this in your video let me know and I'll find you something appropriate.</li>
+		<p></p>
+	    <li class="list"><b style="color:#89f0ed">Animation:</b> I design everything from scratch so I can use 
+		your brand's color palette and even create personalized visuals upon your request. This would make your video unique and specific to your company or business.</li>
+	    <p></p>
+		</ul>
+
+		<p>Let me know what you need so I can give you information about cost, time, and more.</p>
+
+		<p style="padding-bottom:20px;">Here is one of the videos I've made.</p>
+
+		<iframe width="853" height="480" src="https://www.youtube.com/embed/wWOGb3rI_mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</div>
+		</section>
+
+
+
+
+
+
+
+<!-- payment System Start -->
+<!-- payment System Start -->
+<!-- payment System Start -->
+<div style="overflow: hidden; display: block; height:10px; background:white"></div>
+  <div class="acc-container">
+    <div class="acc-btn"><h3> Pay With Paypal </h3></div>
+    <div class="acc-content">
+
+		<!-- pay with Paypal -->
+			<center>
+				<div style="display: block; margin: auto;">
+				<div class="col-1">
+					<label for="ammnt"> Amount</label>
+					<input style="padding: 5px; margin: 10px;" min='1' id="ammnt" type="number" value="10" class="form-control">
+				</div>
+				<div id="paypalBtn"></div>
+			</div>
+			</center>
+			<!-- paywith paypal end -->
+
+    </div>
+
+    <div class="acc-btn"><h3> Pay With Card </h3></div>
+    <div class="acc-content">
+      <!-- pay with Card Start -->
+		<center>
+			<div style="display: block; margin: auto; background: #FFF">
+			<img src="https://i.ibb.co/sjqNHd1/card-Payment.png" alt="Card Payment" height="90px" width="400px" style="margin:20px 0px">
+
+
+      <form action="https://www.isaacchung.net/charge" method="post" id="payment-form"  style="width:100%;">
+          <div class="form-row">
+              <p> <label for="amn" class="lbl"> Amount </label>
+              	<input class="form-control" type="text" name="amount" value="10" id="amn" /></p>
+              <p> <label for="cnm" class="lbl"> Customer Name </label>
+              	<input class="form-control" type="text" name="customer_name" value="" placeholder="Customer Name" id="cnm" /></p>
+              <p><label for="mailadd" class="lbl"> Customer Email </label>
+              	<input class="form-control" type="text" name="customer_email" value="" placeholder="Customer Email" /></p>
+              <p><input class="form-control" type="hidden" name="redirect_url" value="https://www.isaacchung.net/animations"/></p>
+              
+              <div id="card-element">
+                <!-- A Stripe Element will be inserted here. -->
+              </div>
+             
+              <!-- Used to display form errors. -->
+              <div id="card-errors" role="alert"></div>
+          </div>
+          <p><button class="btn btn-primary btn-myCustom">
+              <span class="indicator-label">Submit Payment</span>
+          </button></p>
+          <input type="hidden" name="_token" value="7n4xEwFvHwMIZ4jNexXC4GldpSfeYDJrHL6KGxLo">
+        </form>
+		</div>
+		</center>
+		<!-- custom card section -->
+    </div>
+</div>
+
+
+<!-- payment System Code End -->
+<!-- payment System Code End -->
+<!-- payment System Code End -->
+
+
+
+		<footer>
+		    <!--a id="getintouch" style="color:white; padding: 10px;">Get in Touch</a-->
+			<!--a style="color:white">|</a-->
+			<a href="https://www.linkedin.com/in/cartoony-isaac-ab011022a/"><img id="linkedin" src="socamedia/linkedin_24.png" alt="feibu"></a>
+			<a href="https://www.instagram.com/cartoony.isaac/"><img id="itagra" src="socamedia/instagram_24.png" alt="feibu"></a>
+			<a href="https://www.youtube.com/channel/UCsjKCgtl7FvqW97Jooc3cNw"><img id="youtu" src="socamedia/youtube_24.png" alt="feibu"></a>
+			<a href="https://www.facebook.com/Cartoony-Isaac-111958931358974/"><img id="feibu" src="socamedia/facebook_24.png" alt="feibu"></a>
+			<a href="https://www.artstation.com/cartoony-isaac"><img id="artsta" src="socamedia/artstation_24.png" alt="artsta"></a>
+	    <script type="text/javascript">var publishable_key = 'pk_test_51KJ47uKbxzBcNTIVj7ZcGyP2ziyKidXKnxVRYdRL0kYymLVJ09flC2TYVBmA59jV1FWfJ1hYXYqkeoVydleKVBzT00tAd2OrQn';</script>
+	    <script type="text/javascript" src="https://js.stripe.com/v3/"></script>
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	    <script src="https://www.isaacchung.net/js/stripe.js"></script>
+
+		</footer>
+	</div> <!-- wrapper close -->
+	<div id="csModal" style="display: none; position: fixed; width: 100%; height: 100%; background: #000000b8; top: 0;">
+		<div style="width: 100%; height: 100%; position: relative">
+			<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; width: 80%; text-align: center; padding: 50px">
+				<h1>Congraculation!</h1>
+				<h3 style="color: green">Payment Sucessfull</h3>
+				<button id="closeCsModal" style="border: 0; padding: 10px 20px; background: tomato; cursor: pointer;">Close</button>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- <div style="position: absolute; top: 0; left: 0; transform: translate(-50%, -50%); background: #fff; color: #000">
+		<h1>Hi</h1>
+	</div> -->
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="https://www.paypal.com/sdk/js?client-id=AfxumwB0oqDY-bFYlx6YqeRhWGLXHklNh-_MVUs6yKKRmxAA4aUqX4NXsQFVDWnhOpLJH5GQ_zBCGch1&disable-funding=credit,card"></script>
+	<script>
+	paypal.Buttons({
+		createOrder: function(data, actions){
+			return actions.order.create({
+				purchase_units: [{
+					amount: {
+						value: $("#ammnt").val(),
+						currency: 'USD'
+					}
+				}]
+			})
+		},
+		onApprove: function(data, actions){
+			return actions.order.capture().then(function(det){
+				var respData = det;
+				$.ajax({
+					type: "POST",
+					url: "/proccessing",
+					data: {"_token": "7n4xEwFvHwMIZ4jNexXC4GldpSfeYDJrHL6KGxLo", data: respData},
+					success: function(response){				
+						if(response == '1'){
+							document.querySelector('#csModal').style.display = "block";
+						}
+					}
+				})
+			});
+		}
+	}).render("#paypalBtn");</script>
+	<script>
+		document.querySelector('#closeCsModal').onclick = function(){
+			document.querySelector('#csModal').style.display = "none";
+		}
+		$(document).ready(function(){
+		   $("#ammnt").keyup(function(){
+		       var cardamount = $(this).val();
+		       $("[name='cardaammnt']").val(cardamount);
+		   }) 
+		});
+	</script> 
+
+
+<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/6ee8e97940.js" crossorigin="anonymous"></script>
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!-- code for accordion -->
+<script type="text/javascript">
+  $('.acc-btn').click(function(){
+    if ( $(this).next().is( ":hidden" ) ) {
+      $('.acc-content').slideUp('selected');
+      $(this).next().slideDown('selected');
+    } else {
+      $(this).next().slideUp('selected');
+    };
+});
+</script>
+
+</body>
+</html>
